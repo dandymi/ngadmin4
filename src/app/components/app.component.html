@@ -16,6 +16,21 @@
 
     <!-- Main content -->
     <section class="content">
+
+        <div>
+            <ul>
+                <li>
+                    <a [routerLink]="['/categories']">Categories</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/tags']">Tags</a>
+                </li>
+                <li>
+                    <a [routerLink]="['/questions']">Questions</a>
+                </li>
+            </ul>
+        </div>
+        <router-outlet></router-outlet>
     </section>
 </div>
 <app-appfooter></app-appfooter>
